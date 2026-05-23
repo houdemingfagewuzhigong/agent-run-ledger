@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="420" role="img" aria-label="Agent Run Ledger terminal demo">
+  <rect width="920" height="420" fill="#101820"/>
+  <rect x="24" y="24" width="872" height="372" rx="10" fill="#16222e"/>
+  <circle cx="54" cy="50" r="7" fill="#ff5f57"/>
+  <circle cx="78" cy="50" r="7" fill="#febc2e"/>
+  <circle cx="102" cy="50" r="7" fill="#28c840"/>
+  <text x="42" y="94" fill="#d6e2f0" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18">$ python3 agent_run_ledger.py snapshot --agent codex --note "refactored auth"</text>
+  <text x="42" y="132" fill="#8bd49c" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18">recorded 20260523T000000Z: 7 dirty files, flags=['workflow changed']</text>
+  <text x="42" y="190" fill="#d6e2f0" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18">$ python3 agent_run_ledger.py export --format sarif</text>
+  <text x="42" y="228" fill="#ffd166" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18">warning: codex run flagged workflow changed</text>
+  <text x="42" y="286" fill="#d6e2f0" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18">$ python3 agent_run_ledger.py report --output agent-ledger.html</text>
+  <text x="42" y="324" fill="#8bd49c" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18">wrote agent-ledger.html</text>
+</svg>
