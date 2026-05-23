@@ -1,0 +1,12 @@
+.env
+.env.*
+*.token
+github_token
+secrets/
+.config/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+agent-ledger.html
+agent-ledger.sarif
